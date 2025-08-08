@@ -1,2 +1,12 @@
 # ToDoApp-Grupo-JavKevMat-2
-Desarrollo de una Aplicación Móvil con Control de Versiones en Git 
+Aplicacion de lista de tareas en Python.
+
+## Instalación 
+1. clonado de repositorio.
+2. Instala Python 3.x.
+3. Ejecuta `python main.py`.
+
+## Funcionalidades
+- Crear tareas.
+- Eliminar tareas.
+
