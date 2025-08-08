@@ -5,3 +5,11 @@ class TASLModel:
 
     def get_task_name(self):
         return self.task_name
+
+    def mark_as_complete(self):
+        self.is_completed = True
+    
+    def is_completed(self):
+        return self.is_completed
+
+        
