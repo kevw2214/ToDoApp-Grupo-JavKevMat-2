@@ -12,12 +12,15 @@ class TaskModel:
     
     def is_completed(self):
         return self.is_completed
-
-        
     
     def delete_task(self):
         self.task_name = None
         self.is_completed = False
+    
+    def set_done (self):
+        self.is_completed = True
 
-    def is_completed(self):
-        return self.is_completed
+    def remove_task (self):
+        self.task_name = None
+        self.is_complete = False
+    
