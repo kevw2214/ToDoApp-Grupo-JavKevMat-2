@@ -54,7 +54,7 @@ creo el repositorio, creo la rama group-kjm, añadió mark_as_complete y actuali
 ###Estudiante2(Javier herazo):
 Añadió delete_task y actualizó README.md.  
 
-###Estudiante3(mateo zanabria):
+###Estudiante3(mateo zambrano):
 Simuló conflicto con set_done/remove_task y lo resolvió.
 
 5.REFLEXION
