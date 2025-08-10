@@ -1,0 +1,64 @@
+-----------------REPORT ToDoApp-kjm-2 ----------------
+
+1. PASOS REALIZADOS
+###inicializacion y clonación del repositorio
+###creacion de los archivos(main.py, task_model, .gitignore)
+###commit y push de los archivos
+###creacion de la rama estudiante1-kevin
+###modificacion de los archivos main.py y task_model.py
+###commit y push de los nuevos cambios en la rama estudiante1-kevin
+###creacion de la rama Estudiante2-Javier
+###modificacion de los archivos task_model.py y README.md
+###commit y push de los archivos en la rama Estudiante2-Javier
+###creacion de la rama estudiante3-Mateo
+###modificacion de los archivos task_model.py y main.py
+###commit y push de los archivos en la rama Estudiante2-Javier
+###creacion de la rama group-kjm
+###merge de estudiante1-kevin con la rama group-kjm
+###merge y solución de conflitos de la rama Estudiante2-Javier
+###merge y solucion de los conflictos(combinación de los cambios en task_model.py) con la rama estudiante3-Mateo
+###pull request desde group-kjm al main y fusión de los cambios
+###eliminacion de todas la ramas creadas
+
+2. COMANDOS GIT
+git init	                -Inicializa un nuevo repositorio Git en la carpeta actual.
+git clone <URL>	                -Clona un repositorio remoto en tu máquina local.
+git add <archivos>              -Añade archivos al área de preparación (staging area) para incluirlos en el próximo commit.
+git add .	                -Añade todos los archivos modificados y nuevos al área de preparación.
+git commit -m "mensaje"	        -Guarda los cambios en el historial de Git con un mensaje descriptivo.
+git push origin <rama>	        -Envía los commits locales a la rama especificada en el repositorio remoto.
+git checkout -b <nombre-rama>	-Crea una nueva rama y cambia a ella.
+git status	                -Muestra el estado actual del repositorio: rama activa, archivos modificados, etc.
+git switch <rama>	        -Cambia a otra rama existente.
+git merge <rama>	        -Fusiona los cambios de otra rama en la rama actual.
+git merge --abort	        -Cancela un merge en progreso y vuelve al estado anterior.
+git fetch origin	        -Descarga los cambios del repositorio remoto sin aplicarlos todavía.
+git branch -D <nombre-rama>	-Elimina una rama local de forma forzada.
+git push origin --delete <nombre-rama>	 -Elimina una rama en el repositorio remoto.
+git log	                        -Muestra el historial de commits con autor, fecha y mensaje.
+git branch -r	                -Lista todas las ramas remotas disponibles en el repositorio.
+
+3.CONFLICTOS
+###conflicto en task_model.py entre is_mark y is_delete en el 2do merge.
+
+###Conflicto en task_model.py entre is_completed/is_done y 
+mark_as_complete/set_done. 
+
+###conflicto en el main.py, combinación de prints en el 3to merge.
+
+4.CONTRIBUCIONES
+
+###Estudiante1(Kevin cerpa):
+creo el repositorio, creo la rama group-kjm, añadió mark_as_complete y actualizó main.py. 
+
+###Estudiante2(Javier herazo):
+Añadió delete_task y actualizó README.md.  
+
+###Estudiante3(mateo zanabria):
+Simuló conflicto con set_done/remove_task y lo resolvió.
+
+5.REFLEXION
+Durante la creación y gestión de las rama  surgieron pequeños problemas como commits sin mensaje, errores al hacer push por no configurar el upstream y confusiones con la sintaxis. Estos inconvenientes muestran la importancia de seguir un flujo ordenado: preparar bien los cambios, escribir mensajes claros y configurar la rama remota desde el inicio. Son detalles simples, pero marcan la diferencia para evitar retrabajos y mantener un manejo de Git más fluido y eficiente
+
+
+
